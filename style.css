@@ -594,7 +594,7 @@ xclip
 .section.wb::before{
 	content:'';
 	opacity: 0.4;
-	background-image: url(../jakebonus/banner/thumb-1920-456498.jpg);
+	background-image: url(./banner/thumb-1920-456498.jpg);
 	position: absolute;
 	filter:blur(2px);
 	top: 0;

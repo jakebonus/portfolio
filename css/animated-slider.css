@@ -349,8 +349,8 @@
 	font-size: 30px;
 	line-height: 1;
 	color: #fff;
-	/* font-family: 'Ubuntu', sans-serif; */
-	font-family: BankGothic Lt BT;
+	font-family: 'Ubuntu', sans-serif;
+	/* font-family: BankGothic Lt BT; */
 	font-weight: 700;
 	padding-top: 1px;
 }
