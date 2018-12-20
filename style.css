@@ -27,7 +27,7 @@
 body {
 	--def: #ffffff;
 	--inv: #009bb7;
-    color: #999999;
+    color: #cecece;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.80857;
@@ -87,7 +87,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #009bb7;
     margin: 0
 }
 
@@ -587,8 +587,27 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #000;
+		position: relative;
+
 }
+.section.wb::before{
+	content:'';
+	opacity: 0.4;
+	background-image: url(../jakebonus/banner/thumb-1920-456498.jpg);
+	position: absolute;
+	filter:blur(2px);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+/* .section.wb::after {
+    /* background-color: #ffffff; */
+		/* background-image: url(../jakebonus/uploads/banner-03.jpg); */
+
+		/* opacity: 0.5;
+} */
 
 .section.lb {
     background-color: #f2f3f5;
@@ -596,7 +615,11 @@ xclip
 
 .section.db {
     background-color: #111111;
+		/* background-color: #000; */
+		/* position: relative; */
 }
+
+
 
 .section.color1 {
     background-color: #448AFF;
@@ -1326,7 +1349,7 @@ xclip
 }
 
 .message-box ul li b{
-	color: #292929;
+	color: #009bb7;
 	font-size: 22px;
 	margin-right: 15px;
 }
